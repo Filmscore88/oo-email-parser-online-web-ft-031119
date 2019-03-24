@@ -13,7 +13,8 @@ end
 
 def parse
     
-    .delete(",").split.uniq
+   self.emails.delete(",").split.uniq
+   emails
     
 end 
   

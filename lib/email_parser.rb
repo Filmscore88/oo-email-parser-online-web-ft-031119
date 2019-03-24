@@ -9,14 +9,12 @@ class EmailParser
   
 
 def initialize(emails)
+  @emails=emails
 
 end
 
 def parse
-    x=self.class.new(emails)
-   binding.pry
-
-    this.delete(",").split.uniq
+  emails.delete(",").split.uniq
     
     
     

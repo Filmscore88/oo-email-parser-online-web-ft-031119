@@ -14,9 +14,9 @@ end
 
 def parse
     x=self.class.new(emails)
-    x.emails=(emails)
+   x.emails=(this)
 
-    x.delete(",").split.uniq
+    this.delete(",").split.uniq
     
     
     

@@ -12,9 +12,9 @@ def initialize(emails)
 end
 
 def parse
-    
+    binding.pry
    self.emails.delete(",").split.uniq
-   emails
+   
     
 end 
   

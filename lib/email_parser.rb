@@ -16,7 +16,7 @@ def parse
     EmailParser.new(emails)
     parser=EmailParser.new(emails)#.delete(",").split.uniq
     
-    binding.pry
+    
     
     
    

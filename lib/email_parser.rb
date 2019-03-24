@@ -13,8 +13,8 @@ def initialize(emails)
 end
 
 def parse
-    parser--
-    binding.pry
+    parser=EmailParser.new(c_s_v_emails)
+    binidng.pry
     
     #.delete(",").split.uniq
     

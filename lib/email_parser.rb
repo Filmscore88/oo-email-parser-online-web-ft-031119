@@ -16,7 +16,7 @@ def parse
     x=self.class.new(emails)
     x.emails=(emails)
 
-    emails.delete(",").split.uniq
+    x.delete(",").split.uniq
     
     
     

@@ -15,12 +15,6 @@ end
 
 def parse
   emails.delete(",").split.uniq
-    
-    
-    
-    
-   
-    
 end 
   
   

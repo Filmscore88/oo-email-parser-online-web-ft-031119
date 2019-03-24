@@ -12,10 +12,10 @@ def initialize(emails)
 end
 
 def parse
-  new_instance= self.class.new
+  new_instance= self.class.new(emails)
   
-  .delete(",").split.uniq
-  
+  new_instance.delete(",").split.uniq
+  new_instance
 end 
   
   

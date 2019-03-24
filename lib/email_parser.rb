@@ -9,11 +9,11 @@ class EmailParser
 
 
 def initialize(emails)
-   binding.pry
+
 end
 
 def parse
-   
+    binding.pry
    self.emails.delete(",").split.uniq
    
     

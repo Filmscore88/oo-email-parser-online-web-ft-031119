@@ -14,7 +14,9 @@ end
 
 def parse
     EmailParser.new(emails)
-    binidng.pry
+    
+    binding.pry
+    
     #.delete(",").split.uniq
     
    

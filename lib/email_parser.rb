@@ -13,7 +13,7 @@ def initialize(emails)
 end
 
 def self.parse
-    EmailParser.new(emails)
+    
     
     binding.pry
     

@@ -13,7 +13,7 @@ def initialize(emails)
 end
 
 def parse
-    
+    binding.pry
     emails.delete(",").split.uniq
     
    

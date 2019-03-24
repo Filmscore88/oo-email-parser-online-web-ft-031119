@@ -11,7 +11,7 @@ class EmailParser
 def initialize(emails)
 end
 
-def self.parse
+def parse
   self.delete(",").split.uniq
   
 end 

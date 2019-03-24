@@ -13,7 +13,7 @@ end
 
 def parse
     parser= self.class.new(emails)
-   emails= emails.delete(",").split.uniq
+    emails.delete(",").split.uniq
     emails
 end 
   

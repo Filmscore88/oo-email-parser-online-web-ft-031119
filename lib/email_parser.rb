@@ -12,10 +12,9 @@ def initialize(emails)
 
 end
 
-def parse
+def self.parse
     
-    EmailParser.new(emails)
-    parser=EmailParser.new(emails)#.delete(",").split.uniq
+    #.delete(",").split.uniq
     
     
     

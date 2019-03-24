@@ -5,18 +5,19 @@
 require 'pry'
 class EmailParser
   attr_accessor :emails 
-binding.pry
 
+  
 
 def initialize(emails)
 
 end
 
 def parse
-    parser=EmailParser.new(emails)
+    emails=EmailParser.new(emails)
+    parser=EmailParser.new(emails).delete(",").split.uniq
     
+    binding.pry
     
-    #.delete(",").split.uniq
     
    
     

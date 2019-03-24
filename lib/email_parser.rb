@@ -12,9 +12,8 @@ def initialize(emails)
 
 end
 
-def self.parse
-    
-    
+def parse
+    parser--
     binding.pry
     
     #.delete(",").split.uniq
